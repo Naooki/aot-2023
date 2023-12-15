@@ -1,0 +1,1 @@
+type SantasList<BadList extends readonly unknown[], GoodList extends readonly unknown[]> = [...BadList, ...GoodList];
